@@ -177,6 +177,9 @@ body.revealed #reveal-effect {
   font-family: Inter;
   transition: opacity 2s ease;
   z-index: 9999;
+  letter-spacing: 1.12;
+  line-height: 1.5;
+  text-align: center;
   /* Ensure it's the highest */
   pointer-events: none;
   /* Ignore pointer events so it doesn't interfere with clicks */
