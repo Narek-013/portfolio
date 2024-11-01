@@ -5,6 +5,7 @@
   border: 0px;
 }
 
+
 *,
 *:before,
 *:after {
@@ -12,6 +13,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 
 aside,
 nav,
@@ -147,6 +149,14 @@ body.loaded #reveal-effect {
 
 body.revealed #reveal-effect {
   display: none;
+}
+
+#language-selector{
+  border-radius: 8px;
+  width: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  height: 40px;
 }
 
 #heading {
@@ -838,6 +848,7 @@ body.ie ._ibg img {
 }
 .header .header__container .header__left {
   display: flex;
+  align-items: center;
   column-gap: 36px;
 }
 @media (max-width: 1170px) {

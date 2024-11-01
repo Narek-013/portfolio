@@ -17,20 +17,25 @@
 
   <body>
     <div class="wrapper">
-      <a href="#" id="trigger" class="btn btn-lg btn-secondary"></a>
+      <!-- <a href="#" id="trigger" class="btn btn-lg btn-secondary"></a>
       <h1 id="heading">Welcome to My Website</h1>
-      <canvas id="reveal-effect"></canvas>
+      <canvas id="reveal-effect"></canvas> -->
       <header class="header selector1">
   <div class="header__container _container">
     <div class="header__left">
+      <select id="language-selector" class="selector2">
+        <option value="ru">Рус</option>
+        <!-- <option value="hy">Հայ</option> -->
+        <option value="en">Eng</option>
+</select>
       <a href="#main"><img src="img/mainImg.png" alt="image" /></a>
       <ul>
-        <li><a href="#main">Главная</a></li>
-        <li><a href="#advantages">Преимущества</a></li>
-        <li><a href="#stakes">Навыки</a></li>
-        <li><a href="#services">Услуги</a></li>
-        <li><a href="#portfolio">Портфолио</a></li>
-        <li><a href="#contact">Контакты</a></li>
+        <li><a id="homee" href="#main">Главная</a></li>
+        <li><a id="advantagesss" href="#advantages">Преимущества</a></li>
+        <li><a id="skillls" href="#stakes">Навыки</a></li>
+        <li><a id="servicesss" href="#services">Услуги</a></li>
+        <li><a id="portfolioo" href="#portfolio">Портфолио</a></li>
+        <li><a id="contactsss" href="#contact">Контакты</a></li>
       </ul>
     </div>
     <div class="header__right">
@@ -49,12 +54,12 @@
   </div>
   <div class="burger-menu selector1">
   <ul>
-    <li><a href="#main">Главная</a></li>
-    <li><a href="#advantages">Преимущества</a></li>
-    <li><a href="#stakes">Навыки</a></li>
-    <li><a href="#services">Услуги</a></li>
-    <li><a href="#portfolio">Портфолио</a></li>
-    <li><a href="#contact">Контакты</a></li>
+    <li><a id="ma" href="#main">Главная</a></li>
+    <li><a id="ad" href="#advantages">Преимущества</a></li>
+    <li><a id="st" href="#stakes">Навыки</a></li>
+    <li><a id="se" href="#services">Услуги</a></li>
+    <li><a id="po" href="#portfolio">Портфолио</a></li>
+    <li><a id="co" href="#contact">Контакты</a></li>
   </ul>
 </div>
 
@@ -63,8 +68,8 @@
       <main class="page">
         <section class="main" id="main">
   <div class="main__container">
-    <h1>Frontend developer</h1>
-    <p>
+    <h1 id="frontend">Frontend developer</h1>
+    <p id="title">
       Приветствую вас! Я- Нарек. Являюсь Frontend разработчиком, опыт работы более 4-х лет. Качественно выполню работу, затратив малое
       количество времени.
     </p>
@@ -79,22 +84,22 @@
 
         <section class="advantages selector2" id="advantages">
   <div class="advantages__container _container">
-     <h2 class="title">Преимущества</h2>
+     <h2 id="head" class="title">Преимущества</h2>
      <div class="advantages__flex">
         <div class="advantages__item selector1" data-aos="zoom-in-right" data-aos-duration="1000">
             <img src="img/advantages1.png" alt="image">
-            <span>Скоротсь работы</span>
-            <p>Все заказы сдаются в срок</p>
+            <span id="work">Скоротсь работы</span>
+            <p id="info">Все заказы сдаются в срок</p>
          </div>
          <div class="advantages__item selector1"  data-aos="flip-left" data-aos-duration="1000">
             <img src="img/advantagesimg.png" alt="image">
-            <span>Качественная работа</span>
-            <p>Кроссбраузерный, валидный, чистый код</p>
+            <span id="quality">Качественная работа</span>
+            <p id="cross">Кроссбраузерный, валидный, чистый код</p>
          </div>
          <div class="advantages__item selector1" data-aos="zoom-in-left" data-aos-duration="1000">
             <img src="img/advantages.png" alt="image">
-            <span>График работы</span>
-            <p>Подстраиваюс под графиком клиента что бы всегда быть на связе</p>
+            <span id="hours">График работы</span>
+            <p id="adapt">Подстраиваюс под графиком клиента что бы всегда быть на связе</p>
          </div>     
      </div>
      </div>
@@ -104,7 +109,7 @@
 
         <section class="stakes selector1" id="stakes">
   <div class="stakes__container _container">
-    <h2>Навыки</h2>
+    <h2 id="ski">Навыки</h2>
     <div class="stakes__wrapper">
       <div class="stakes__wrapper-content"  data-aos="fade-up-left">
         <div class="stakes__wrapper-content-items" data-item="0">
@@ -274,87 +279,87 @@
 
         <section class="services selector2" id="services">
   <div class="services__container _container">
-    <h2 class="title">Услуги</h2>
+    <h2 id="tit" class="title">Услуги</h2>
     <div class="services__items">
       <div class="services__items-item selector1" data-aos="flip-up">
-  <h4>Верстка (GULP)</h4>
+  <h4 id="vers">Верстка (GULP)</h4>
   <div class="opit">
-    <span>Опыт работы: </span>
+    <span class="opit-id">Опыт работы: </span>
     <p>4 года</p>
   </div>
   <div class="services__items-content">
     <div class="services_item-info">
       <img src="img/checked.png" alt="image" />
-      <p>Бистрая работа</p>
+      <p class="fastId">Бистрая работа</p>
     </div>
     <div class="services_item-info">
       <img src="img/checked.png" alt="image" />
-      <p>Качественная верстка</p>
+      <p id="veni">Качественная верстка</p>
     </div>
     <div class="services_item-info">
       <img src="img/checked.png" alt="image" />
-      <p>Бесплатные правки</p>
+      <p class="pravId">Бесплатные правки</p>
     </div>
     <div class="services_item-info">
       <img src="img/checked.png" alt="image" />
-      <p>Цена: 750 ₽/час</p>
+      <p id="price-one">Цена: 750 ₽/час</p>
     </div>
   </div>
-  <a href="mailto:meliksetyan415@gmail.com">Заказать</a>
+  <a class="zakId" href="mailto:meliksetyan415@gmail.com">Заказать</a>
 </div>
 
       <div class="services__items-item selector1" data-aos="flip-up">
   <h4>React,Next js</h4>
   <div class="opit">
-    <span>Опыт работы: </span>
+    <span class="opit-id">Опыт работы: </span>
     <p>2 года</p>
   </div>
   <div class="services__items-content">
     <div class="services_item-info">
       <img src="img/checked.png" alt="image" />
-      <p>Бистрая работа</p>
+      <p class="fastId">Бистрая работа</p>
     </div>
     <div class="services_item-info">
       <img src="img/checked.png" alt="image" />
-      <p>Качественная код</p>
+      <p id="code">Качественная код</p>
     </div>
     <div class="services_item-info">
       <img src="img/checked.png" alt="image" />
-      <p>Бесплатные правки</p>
+      <p class="pravId">Бесплатные правки</p>
     </div>
     <div class="services_item-info">
       <img src="img/checked.png" alt="image" />
-      <p>Цена: 1500 ₽/час</p>
+      <p id="price-two">Цена: 1500 ₽/час</p>
     </div>
   </div>
-  <a href="mailto:meliksetyan415@gmail.com">Заказать</a>
+  <a class="zakId" href="mailto:meliksetyan415@gmail.com">Заказать</a>
 </div>
 
       <div class="services__items-item selector1" data-aos="flip-up">
   <h4>Figma</h4>
   <div class="opit">
-    <span>Опыт работы: </span>
+    <span class="opit-id">Опыт работы: </span>
     <p>1 года</p>
   </div>
   <div class="services__items-content">
     <div class="services_item-info">
       <img src="img/checked.png" alt="image" />
-      <p>Бистрая работа</p>
+      <p class="fastId">Бистрая работа</p>
     </div>
     <div class="services_item-info">
       <img src="img/checked.png" alt="image" />
-      <p>Удобный дизайн</p>
+      <p id="design">Удобный дизайн</p>
     </div>
     <div class="services_item-info">
       <img src="img/checked.png" alt="image" />
-      <p>Бесплатные правки</p>
+      <p class="pravId">Бесплатные правки</p>
     </div>
     <div class="services_item-info">
       <img src="img/checked.png" alt="image" />
-      <p>Цена: 500 ₽/час</p>
+      <p id="price-three">Цена: 500 ₽/час</p>
     </div>
   </div>
-  <a href="mailto:meliksetyan415@gmail.com">Заказать</a>
+  <a class="zakId" href="mailto:meliksetyan415@gmail.com">Заказать</a>
 </div>
  
     </div>
@@ -362,7 +367,7 @@
 </section>
  <section class="portfolio selector1" id="portfolio">
   <div class="portfolio__container _container">
-    <h2>Портфолио</h2>
+    <h2 id="port">Портфолио</h2>
     <div class="swiper">
       <div class="swiper-wrapper"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div class="swiper-slide"><a href="https://narekcv.netlify.app/" target="_blank"><img src="img/website.png" alt="image" /></a></div>
@@ -388,8 +393,8 @@
 
         <section class="contact selector2" id="contact">
     <div class="contact__container _container">
-        <h2 class="title">Контакты</h2>
-        <p class="title">Меликсетян Нарек</p>
+        <h2 id="cont" class="title">Контакты</h2>
+        <p id="myname" class="title">Меликсетян Нарек</p>
         <div class="contact__items">
 			<a class="title" href="tel:+37477873707"><svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="title">
                 <g clip-path="url(#clip0_45_7713)">
@@ -426,12 +431,12 @@
       <footer class="footer selector1">
   <div class="footer__container _container">
     <ul>
-      <li><a href="#main">Главная</a></li>
-      <li><a href="#advantages">Преимущества</a></li>
-      <li><a href="#stakes">Навыки</a></li>
-      <li><a href="#services">Услуги</a></li>
-      <li><a href="#portfolio">Портфолио</a></li>
-      <li><a href="#contact">Контакты</a></li>
+      <li><a id="homes" href="#main">Главная</a></li>
+      <li><a id="advantagess" href="#advantages">Преимущества</a></li>
+      <li><a id="skillss" href="#stakes">Навыки</a></li>
+      <li><a id="servicess" href="#services">Услуги</a></li>
+      <li><a id="portfolios" href="#portfolio">Портфолио</a></li>
+      <li><a id="contac" href="#contact">Контакты</a></li>
     </ul>
     <div class="footer__contact">
       <a href="tel:+37477873707"><img src="img/call.png" alt="image" /> +374 77 87 37 07</a>
