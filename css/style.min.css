@@ -5,7 +5,6 @@
   border: 0px;
 }
 
-
 *,
 *:before,
 *:after {
@@ -13,7 +12,6 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 
 aside,
 nav,
@@ -152,7 +150,7 @@ body.revealed #reveal-effect {
 }
 
 .activeLeng,
-#language-selector{
+#language-selector {
   border-radius: 8px;
   width: 50px;
   font-weight: 500;
@@ -161,13 +159,13 @@ body.revealed #reveal-effect {
   animation: shadow 1s forwards infinite alternate;
 }
 
-@media (max-width:803px) {
-  .activeLeng{
+@media (max-width: 803px) {
+  .activeLeng {
     display: none;
   }
 }
 
-#frontend{
+#frontend {
   text-align: center;
 }
 
@@ -315,17 +313,17 @@ html {
   display: block;
 }
 
-input[type=text],
-input[type=email],
-input[type=tel],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
 textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=tel]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
 textarea:focus {
   outline: none;
 }
@@ -522,7 +520,8 @@ textarea.input {
   position: relative;
   cursor: pointer;
 }
-.quantity__button::before, .quantity__button::after {
+.quantity__button::before,
+.quantity__button::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -534,7 +533,8 @@ textarea.input {
   height: 1px;
 }
 @media (min-width: 991.98px) {
-  .quantity__button:hover::before, .quantity__button:hover::after {
+  .quantity__button:hover::before,
+  .quantity__button:hover::after {
     background-color: rgba(0, 0, 0, 0.5);
   }
 }
@@ -881,8 +881,7 @@ body.ie ._ibg img {
   .header .header__container .header__left img {
     width: 40px;
     height: 40px;
-  animation: shadow 1s forwards infinite alternate;
-
+    animation: shadow 1s forwards infinite alternate;
   }
 }
 .header .header__container .header__left ul {
@@ -1786,6 +1785,13 @@ body.ie ._ibg img {
   font-weight: 700;
   margin-top: 40px;
   transition: all 0.4s;
+}
+
+@media (max-width: 768px) {
+ 
+  .swiper-pagination-bullet{
+    margin: 1px !important
+  }
 }
 
 .page {
